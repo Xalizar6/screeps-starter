@@ -11,7 +11,7 @@
         "module-concat": "^2.1.0"
     },
     "dependencies": {
-        "@types/lodash": "^4.14.153",
+        "@types/lodash": "^3.10.3",
         "@types/screeps": "^3.2.1"
     }
 }
