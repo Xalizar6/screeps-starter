@@ -2,6 +2,8 @@ let matchdep = require( 'matchdep' );
 let mergeFiles = require( './grunt-scripts/mergeFiles' );
 
 module.exports = function ( grunt ) {
+    // Add stats for time spent on each task
+    require( 'time-grunt' )( grunt );
 
     // Pull defaults (including username and password) from .screeps.json
     const config = require( './.screeps.json' )

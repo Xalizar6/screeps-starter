@@ -7,7 +7,8 @@
         "grunt-screeps": "^1.4.0",
         "lodash": "^3.10.1",
         "matchdep": "^2.0.0",
-        "module-concat": "^2.1.0"
+        "module-concat": "^2.1.0",
+        "time-grunt": "^2.0.0"
     },
     "dependencies": {
         "@types/lodash": "^3.10.3",
