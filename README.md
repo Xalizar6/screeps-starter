@@ -7,7 +7,9 @@
 
 ### Setup config file
 
-In Gruntfile.js introduce your username/password for screeps.
+In .screeps.json add your username/password for screeps.
+
+Update the .gitignore file to un-comment the .screeps.json line so it won't be uploaded to git
 
 ### Install npm modules
 
